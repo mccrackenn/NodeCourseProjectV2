@@ -104,7 +104,7 @@ document.getElementById('distanceButton').addEventListener("click", function(){
 })
 document.getElementById('totalMileageButton').addEventListener("click", function(){
   myDistanceTotal=0;
-  
+  myDistanceTotal=0;
   myDistanceTotal=tripArray.reduce(function(a,b) {
        return  Number(a)+Number(b.Distance);
 },myDistanceTotal);
